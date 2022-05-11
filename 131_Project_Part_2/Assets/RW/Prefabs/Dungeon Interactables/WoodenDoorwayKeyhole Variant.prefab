@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &806113997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 806113998}
+  - component: {fileID: 806114000}
+  - component: {fileID: 806113999}
+  m_Layer: 0
+  m_Name: DoorwayKeyhole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &806113998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806113997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.459, y: 0.8, z: 0.12}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_Children:
+  - {fileID: 2233364995893409794}
+  m_Father: {fileID: 8564523004103218677}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &806114000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806113997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff7d509b84bafc4480cfce16034fb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableType: 0
+  myReactionScript: {fileID: 1739800692}
+  gameManager: {fileID: 0}
+  requirement: GoldKey
+  inventory: {fileID: 0}
+  requirements: 
+  playerGuess: 
+  effortMeter: 0
+  continueCoroutine: 1
+  immovableObject: {fileID: 0}
+--- !u!65 &806113999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806113997}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.45, y: 0.46, z: 0.27}
+  m_Center: {x: -1.64, y: 2, z: 0.25}
+--- !u!114 &1739800692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564523004103218634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8095984438df984a97363d1f8d2e565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorAnimator: {fileID: 8564523004103218675}
+--- !u!1001 &2233364995893273218
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 806113998}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_Name
+      value: DoorwayKeyhole
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.6374277
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.05374527
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c454849086bdcaf4fac8dc07e25dcef1, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 93a068dfb7afa9e468f1e7fee94f983a, type: 3}
+--- !u!4 &2233364995893409794 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 93a068dfb7afa9e468f1e7fee94f983a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2233364995893273218}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2233364997705410224
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7504630760268002170, guid: 8aefa7e7a16338e429e581549a70133c,
+        type: 3}
+      propertyPath: m_Name
+      value: WoodenDoorwayKeyhole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504630760268002117, guid: 8aefa7e7a16338e429e581549a70133c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504630760268002117, guid: 8aefa7e7a16338e429e581549a70133c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504630760268002117, guid: 8aefa7e7a16338e429e581549a70133c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504630760268002117, guid: 8aefa7e7a16338e429e581549a70133c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504630760268002117, guid: 8aefa7e7a16338e429e581549a70133c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504630760268002117, guid: 8aefa7e7a16338e429e581549a70133c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504630760268002117, guid: 8aefa7e7a16338e429e581549a70133c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504630760268002117, guid: 8aefa7e7a16338e429e581549a70133c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504630760268002117, guid: 8aefa7e7a16338e429e581549a70133c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504630760268002117, guid: 8aefa7e7a16338e429e581549a70133c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504630760268002117, guid: 8aefa7e7a16338e429e581549a70133c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8aefa7e7a16338e429e581549a70133c, type: 3}
+--- !u!1 &8564523004103218634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7504630760268002170, guid: 8aefa7e7a16338e429e581549a70133c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2233364997705410224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8564523004103218677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7504630760268002117, guid: 8aefa7e7a16338e429e581549a70133c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2233364997705410224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8564523004103218675 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7504630760268002115, guid: 8aefa7e7a16338e429e581549a70133c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2233364997705410224}
+  m_PrefabAsset: {fileID: 0}
